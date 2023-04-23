@@ -1,0 +1,267 @@
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+   
+      <a href="../../index3.html" [routerLink]="['/home']" routerLinkActive="router-link-active" class="brand-link">
+      <img src="../../../../../assets/dist/img/Logo-DownTown-002-135x135px.png" alt="Down Town Logo" class="brand-image img elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">Down Towm Shop</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="../../../../../assets/dist/img/user2-160x160.jpg" class="img elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Jeferson Gutierrez</a>
+        </div>
+      </div>
+
+      <!-- SidebarSearch Form -->
+      <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+              <a [routerLink]="['/admin']" routerLinkActive="router-link-active" class="nav-link">
+              <i class="nav-icon fas fa-table-columns"></i>
+              <p>
+                Dashboard
+                <!--<i class="right fas fa-angle-left"></i>-->
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a [routerLink]="['/admin']" routerLinkActive="router-link-active" class="nav-link">
+            <i class="nav-icon fas fa-regular fa-address-card"></i>
+            <p>
+              Perfil
+              <!--<i class="right fas fa-angle-left"></i>-->
+            </p>
+          </a>
+        </li>
+ <!--Inicio Productos-->
+        <li class="nav-item">
+          <a class="nav-link">
+          <i class="nav-icon fas fa-solid fa-shirt"></i>
+          <p>
+            Productos
+           <i class="right fas fa-angle-left"></i>
+          </p>
+        </a>
+                    <ul class="nav nav-treeview">
+                      <li class="nav-item">
+                        <a href="../layout/top-nav.html" class="nav-link">
+                          <i class="nav-icon fas fa-solid fa-barcode "></i>
+                          <p>Inventario</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="../layout/top-nav.html" class="nav-link">
+                          <i class="nav-icon fas fa-solid fa-percent "></i>
+                          <p>En descuentos</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="../layout/top-nav.html" class="nav-link">
+                          <i class="nav-icon fas fa-solid fa-folder-open "></i>
+                          <p>Colecciones</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="../layout/top-nav.html" class="nav-link">
+                          <i class="nav-icon fas fa-solid fa-circle "></i>
+                          <p>Otro item aqui</p>
+                        </a>
+                      </li>
+                    </ul>
+        </li>
+        <!--Fin Productos-->
+ <!--Inicio Pedidos-->
+        <li class="nav-item">
+          <a class="nav-link">
+          <i class="nav-icon fas fa-solid fa-clipboard"></i>
+          <p>
+            Pedidos
+           <i class="right fas fa-angle-left"></i>
+           <span class="badge badge-info right">6</span>
+          </p>
+        </a>
+                    <ul class="nav nav-treeview">
+                      <li class="nav-item">
+                        <a href="../layout/top-nav.html" class="nav-link">
+                          <i class="nav-icon fas fa-solid fa-dolly "></i>
+                          <p>Por enviar</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="../layout/top-nav.html" class="nav-link">
+                          <i class="fas fa-truck-fast nav-icon"></i>
+                          <p>Enviados</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="../layout/top-nav.html" class="nav-link">
+                          <i class="fas fa-receipt nav-icon"></i>
+                          <p>Recibidos</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="../layout/top-nav-sidebar.html" class="nav-link">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>Otro item aqui </p>
+                        </a>
+                      </li>
+                    </ul>
+      </li>
+ <!--Fin Pedidos-->
+
+ <!--Inicio Ventas -->
+ <li class="nav-item">
+  <a href="#" class="nav-link">
+    <i class="nav-icon fas fa-chart-pie"></i>
+    <p>
+      Ventas
+      <i class="right fas fa-angle-left"></i>
+    </p>
+  </a>
+  <ul class="nav nav-treeview">
+    <li class="nav-item">
+      <a href="../charts/chartjs.html" class="nav-link">
+        <i class="fas fa-solid fa-wave-square nav-icon"></i>
+        <p>Estadisticas</p>
+      </a>
+    </li>
+  </ul>
+    <!--Fin Ventas-->
+
+          <li class="nav-item">
+            <a href="../widgets.html" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Widgets
+                <span class="right badge badge-danger">New</span>
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-copy"></i>
+              <p>
+                Layout Options
+                <i class="fas fa-angle-left right"></i>
+                <span class="badge badge-info right">6</span>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../layout/top-nav.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Top Navigation</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../layout/top-nav-sidebar.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Top Navigation + Sidebar</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../layout/boxed.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Boxed</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../layout/fixed-sidebar.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Fixed Sidebar</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../layout/fixed-sidebar-custom.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Fixed Sidebar <small>+ Custom Area</small></p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../layout/fixed-topnav.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Fixed Navbar</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../layout/fixed-footer.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Fixed Footer</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../layout/collapsed-sidebar.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Collapsed Sidebar</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                Charts
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../charts/chartjs.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>ChartJS</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../charts/flot.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Flot</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../charts/inline.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Inline</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../charts/uplot.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>uPlot</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+    
+          <li class="nav-header">EXAMPLES</li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+
